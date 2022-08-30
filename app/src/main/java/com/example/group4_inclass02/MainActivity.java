@@ -17,4 +17,5 @@ public class MainActivity extends AppCompatActivity {
         String button6 = getString(R.string.button6);
         String button7 = getString(R.string.button7);
     }
+
 }
