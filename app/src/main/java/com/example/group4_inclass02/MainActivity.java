@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     double finalPrice = Double.parseDouble(input)*0.95;
                     TextView discountPrice = findViewById(R.id.discountPrice);
-                    discountPrice.setText(Double.toString(finalPrice));
+                    discountPrice.setText(String.format("%.2f",finalPrice));
 
                 } catch (NumberFormatException e) {
                     e.printStackTrace();
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     double finalPrice = Double.parseDouble(input)*0.90;
                     TextView discountPrice = findViewById(R.id.discountPrice);
-                    discountPrice.setText(Double.toString(finalPrice));
+                    discountPrice.setText(String.format("%.2f",finalPrice));
 
                 } catch (NumberFormatException e) {
                     e.printStackTrace();
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     double finalPrice = Double.parseDouble(input)*0.85;
                     TextView discountPrice = findViewById(R.id.discountPrice);
-                    discountPrice.setText(Double.toString(finalPrice));
+                    discountPrice.setText(String.format("%.2f",finalPrice));
 
                 } catch (NumberFormatException e) {
                     e.printStackTrace();
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     double finalPrice = Double.parseDouble(input)*0.80;
                     TextView discountPrice = findViewById(R.id.discountPrice);
-                    discountPrice.setText(Double.toString(finalPrice));
+                    discountPrice.setText(String.format("%.2f",finalPrice));
 
                 } catch (NumberFormatException e) {
                     e.printStackTrace();
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     double finalPrice = Double.parseDouble(input)*0.50;
                     TextView discountPrice = findViewById(R.id.discountPrice);
-                    discountPrice.setText(Double.toString(finalPrice));
+                    discountPrice.setText(String.format("%.2f",finalPrice));
 
                 } catch (NumberFormatException e) {
                     e.printStackTrace();
