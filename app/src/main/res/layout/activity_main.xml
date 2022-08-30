@@ -18,7 +18,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/button"/>
 
     <Button
         android:id="@+id/button6"
@@ -32,7 +33,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        android:text="@string/button6"
+        />
 
     <Button
         android:id="@+id/button3"
@@ -46,7 +49,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        android:text="@string/button3"/>
 
     <Button
         android:id="@+id/button5"
@@ -60,7 +64,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        android:text="@string/button5"/>
 
     <Button
         android:id="@+id/button7"
@@ -74,7 +79,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        android:text="@string/button7"/>
 
     <Button
         android:id="@+id/button2"
@@ -88,7 +94,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        android:text="@string/button2"/>
 
     <TextView
         android:id="@+id/calcPrice"
@@ -97,7 +104,7 @@
         android:layout_marginStart="90dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="96dp"
-        android:text="TextView"
+        android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/price"
         app:layout_constraintTop_toBottomOf="@+id/percent" />
@@ -126,7 +133,7 @@
         android:layout_marginTop="18dp"
         android:layout_marginEnd="46dp"
         android:layout_marginBottom="11dp"
-        android:text="TextView"
+        android:text="@string/ticket"
         app:layout_constraintBottom_toTopOf="@+id/percentDisc"
         app:layout_constraintEnd_toStartOf="@+id/ticketPrice"
         app:layout_constraintStart_toStartOf="parent"
@@ -140,7 +147,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="90dp"
         android:layout_marginBottom="11dp"
-        android:text="TextView"
+        android:text="@string/percentDisc"
         app:layout_constraintBottom_toTopOf="@+id/price"
         app:layout_constraintEnd_toStartOf="@+id/percent"
         app:layout_constraintStart_toStartOf="parent"
@@ -153,7 +160,7 @@
         android:layout_marginStart="62dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="94dp"
-        android:text="TextView"
+        android:text="@string/price"
         app:layout_constraintEnd_toStartOf="@+id/calcPrice"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/percentDisc" />
@@ -166,7 +173,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="11dp"
-        android:text="TextView"
+        android:text="@string/percent"
         app:layout_constraintBottom_toTopOf="@+id/calcPrice"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/percentDisc"
