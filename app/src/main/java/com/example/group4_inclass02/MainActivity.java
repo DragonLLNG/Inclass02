@@ -11,6 +11,10 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     final String TAG = "discount";
+
+    private EditText editTextInput;
+    private TextView txtResult;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,8 +57,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        EditText editText = (EditText)findViewById(R.id.ticketPrice);
-        String input = editText.getText().toString();
+        editTextInput = (EditText)findViewById(R.id.ticketPrice);
+        String input = editTextInput.getText().toString();
+
+        public void calculatePrice(View view)
 
 
 
