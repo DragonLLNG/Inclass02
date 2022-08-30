@@ -12,4 +12,5 @@
     <string name="price">Discounted Price:</string>
     <string name="percent"></string>
     <string name="calcPrice"></string>
+    <string name="enter_ticket_price">Enter Ticket Price</string>
 </resources>

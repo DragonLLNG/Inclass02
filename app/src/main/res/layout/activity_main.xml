@@ -7,98 +7,96 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="201dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="188dp"
-        android:layout_marginEnd="105dp"
-        android:layout_marginBottom="12dp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/button"/>
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="105dp"
-        android:layout_marginBottom="12dp"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
-        android:text="@string/button6"
-        />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="201dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="105dp"
-        android:layout_marginBottom="12dp"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        android:text="@string/button3"/>
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="105dp"
-        android:layout_marginBottom="12dp"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        android:text="@string/button5"/>
-
-    <Button
-        android:id="@+id/button7"
+        android:id="@+id/clear"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="105dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="105dp"
         android:layout_marginBottom="134dp"
+        android:text="@string/button7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
-        android:text="@string/button7"/>
+        app:layout_constraintTop_toBottomOf="@+id/fiftyPercent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/twentyPercent"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/button5"
+        app:layout_constraintBottom_toTopOf="@+id/fiftyPercent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fifteenPercent" />
+
+    <Button
+        android:id="@+id/tenPercent"
         android:layout_width="201dp"
         android:layout_height="50dp"
         android:layout_marginStart="105dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="105dp"
         android:layout_marginBottom="12dp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        android:text="@string/button2"
+        app:layout_constraintBottom_toTopOf="@+id/fifteenPercent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        android:text="@string/button2"/>
+        app:layout_constraintTop_toBottomOf="@+id/fivePercent" />
+
+    <Button
+        android:id="@+id/fiftyPercent"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/button6"
+        app:layout_constraintBottom_toTopOf="@+id/clear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/twentyPercent" />
+
+    <Button
+        android:id="@+id/fivePercent"
+        android:layout_width="200dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/button"
+        app:layout_constraintBottom_toTopOf="@+id/tenPercent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/discountPrice" />
+
+    <Button
+        android:id="@+id/fifteenPercent"
+        android:layout_width="201dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/button3"
+        app:layout_constraintBottom_toTopOf="@+id/twentyPercent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tenPercent" />
 
     <TextView
-        android:id="@+id/textResult"
+        android:id="@+id/discountPrice"
         android:layout_width="82dp"
         android:layout_height="42dp"
         android:layout_marginStart="90dp"
@@ -118,12 +116,15 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="10dp"
         android:ems="10"
-        android:hint="Enter Ticket Price"
+        android:hint="@string/enter_ticket_price"
         android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
         app:layout_constraintBottom_toTopOf="@+id/percent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ticket"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/ticket"
@@ -161,20 +162,20 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="94dp"
         android:text="@string/price"
-        app:layout_constraintEnd_toStartOf="@+id/textResult"
+        app:layout_constraintEnd_toStartOf="@+id/discountPrice"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/percentDisc" />
 
     <TextView
         android:id="@+id/percent"
-        android:layout_width="78dp"
+        android:layout_width="80dp"
         android:layout_height="40dp"
         android:layout_marginStart="90dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="11dp"
         android:text="@string/percent"
-        app:layout_constraintBottom_toTopOf="@+id/textResult"
+        app:layout_constraintBottom_toTopOf="@+id/discountPrice"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/percentDisc"
         app:layout_constraintTop_toBottomOf="@+id/ticketPrice" />
