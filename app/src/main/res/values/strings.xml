@@ -2,8 +2,14 @@
     <string name="app_name">Group#4_InClass02</string>
     <string name="button">5% Discount</string>
     <string name="button2">10% Discount</string>
-    <string name="button3">Group#4_InClass02</string>
-    <string name="button5">Group#4_InClass02</string>
-    <string name="button6">Group#4_InClass02</string>
-    <string name="button7">Group#4_InClass02</string>
+    <string name="button3">15% Discount</string>
+    <string name="button5">20% Discount</string>
+    <string name="button6">50% Discount</string>
+    <string name="button7">Clear</string>
+    <string name="ticketPrice"></string>
+    <string name="ticket">Ticket Price:</string>
+    <string name="percentDisc">Discounted %:</string>
+    <string name="price">Discounted Price:</string>
+    <string name="percent"></string>
+    <string name="calcPrice"></string>
 </resources>
