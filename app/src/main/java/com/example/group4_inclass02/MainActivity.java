@@ -45,8 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 discountPercent.setText("10%");
                 if (input.isEmpty() || Integer.parseInt(input) < 0) {
                     // toast error : incorrect value
-
-                    return;
+                    Toast.makeText(MainActivity.this,"Enter valid price",Toast.LENGTH_LONG).show();
                 }
                 try {
                     double finalPrice = Double.parseDouble(input)*0.90;
@@ -67,8 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 discountPercent.setText("15%");
                 if (input.isEmpty() || Integer.parseInt(input) < 0) {
                     // toast error : incorrect value
-
-                    return;
+                    Toast.makeText(MainActivity.this,"Enter valid price",Toast.LENGTH_LONG).show();
                 }
                 try {
                     double finalPrice = Double.parseDouble(input)*0.85;
@@ -88,9 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 TextView discountPercent = findViewById(R.id.percent);
                 discountPercent.setText("20%");
                 if (input.isEmpty() || Integer.parseInt(input) < 0) {
-                    // toast error : incorrect value
-
-                    return;
+                    Toast.makeText(MainActivity.this,"Enter valid price",Toast.LENGTH_LONG).show();
                 }
                 try {
                     double finalPrice = Double.parseDouble(input)*0.80;
@@ -111,8 +107,7 @@ public class MainActivity extends AppCompatActivity {
                 discountPercent.setText("50%");
                 if (input.isEmpty() || Integer.parseInt(input) < 0) {
                     // toast error : incorrect value
-
-                    return;
+                    Toast.makeText(MainActivity.this,"Enter valid price",Toast.LENGTH_LONG).show();
                 }
                 try {
                     double finalPrice = Double.parseDouble(input)*0.50;
@@ -127,6 +122,13 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.clear).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                EditText priceInput = findViewById(R.id.ticketPrice);
+                priceInput.setText("");
+                TextView discountPercent = findViewById(R.id.percent);
+                discountPercent.setText("");
+                TextView discountPrice = findViewById(R.id.discountPrice);
+                discountPrice.setText("");
+
 
             }
         });
